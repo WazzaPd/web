@@ -8,4 +8,10 @@ h1 {
 
 p {
   font-size: large;
+  border: solid;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
