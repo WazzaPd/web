@@ -10,11 +10,11 @@ h1 {
 
 .words {
 	text-align: center;
+	margin: 30px 200px 30px 200px;
 }
 
-
 .bar {
-	
+	display: flex;
 	background-color: black;
 	border: 1px solid black;
 	overflow: hidden;
@@ -22,10 +22,22 @@ h1 {
 }
 
 .barstuff {
+	margin: 10px 50px 10px 50px;
+	flex-grow: 1;
 	text-decoration: none;
 	color: white;
 	font-size: 16px;
-	float: left;
+	padding: 15px 50px;
+}
+
+.here {
+	display: flex;
+	margin: 10px 50px 10px 50px;
+	flex-grow: 1;
+	background-color: #F0E68C;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
 	padding: 15px 50px;
     text-align: center;
 }
