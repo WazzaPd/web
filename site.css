@@ -13,6 +13,7 @@ h1 {
 	margin: 30px 200px 30px 200px;
 }
 
+
 .bar {
 	display: flex;
 	background-color: black;
@@ -21,9 +22,10 @@ h1 {
   
 }
 
+
+
 .barstuff {
 	margin: 10px 50px 10px 50px;
-	flex-grow: 1;
 	text-decoration: none;
 	color: white;
 	font-size: 16px;
@@ -33,11 +35,22 @@ h1 {
 .here {
 	display: flex;
 	margin: 10px 50px 10px 50px;
-	flex-grow: 1;
 	background-color: #F0E68C;
 	text-decoration: none;
 	color: white;
 	font-size: 16px;
 	padding: 15px 50px;
     text-align: center;
+}
+
+.cook {
+	height: 50%;
+	width: 50%;
+	padding: 25px 0px 25px 0px;
+}
+
+.cookv2 {
+	height: 75%;
+	width: 75%;
+	padding: 25px 0px 25px 0px;
 }
